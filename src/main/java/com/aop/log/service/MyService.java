@@ -1,6 +1,6 @@
 package com.aop.log.service;
 
-import com.aop.log.AspectAnnotation;
+import com.aop.log.Logging;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ public class MyService {
         Thread.sleep(2000);
     }
 
-    @AspectAnnotation
+    @Logging
     public void method2() throws InterruptedException {
         Thread.sleep(2000);
         System.out.println("MyService method2");

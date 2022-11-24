@@ -18,7 +18,7 @@ public class Runner {
        // aopXml();
        // aopAnnotation();
       //  aopLogging();
-        aopLogging2();
+      //  aopLogging2();
       //  aopSecurity();
     }
 
